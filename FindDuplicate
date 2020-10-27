@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) throws Exception {
+        
+        Integer[] testArray = {6,5,2,6,8,5};
+        Set<Integer> set = new HashSet<Integer>(); 
+        
+        for(Integer testElement : testArray){
+            if (set.add(testElement) == false) {
+                System.out.println("Duplicate element is : " + testElement);
+           
+             }
+            }
+        }
+}
